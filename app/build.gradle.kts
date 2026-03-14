@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.financeapp"
-    compileSdk = 34 // Cambiado a 34 para evitar el error de descarga
+    compileSdk = 36 // Actualizado a 36 para cumplir con los requisitos de las librerías
 
     defaultConfig {
         applicationId = "com.example.financeapp"
         minSdk = 29
-        targetSdk = 34 // Cambiado a 34
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
