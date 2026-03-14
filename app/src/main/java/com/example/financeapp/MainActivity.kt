@@ -32,6 +32,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.financeapp.components.HeaderComponent
+import com.example.financeapp.components.SummaryCardComponent
 import com.example.financeapp.models.User
 import com.example.financeapp.ui.theme.* 
 import com.example.financeapp.ui.theme.FinanceAppTheme
@@ -59,13 +60,7 @@ fun FinanceApp(innerPadding: PaddingValues) {
             .padding(innerPadding)
     ){
         HeaderComponent()
-        // Summary Cards
-        Row() {
-            //aqui va la primera cards
-            Column() {
-                //aqui van las siguientes dos cards
-            }
-        }
+        SummaryCardComponent()
         //Transactions
         Row() {
             Text(
